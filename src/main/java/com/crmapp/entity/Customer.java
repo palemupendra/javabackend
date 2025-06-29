@@ -14,3 +14,13 @@ public class Customer {
 
     // Getters and setters
 }
+// {
+//   "customer": {
+//     "name": "Alice Johnson",
+//     "email": "alice@example.com",
+//     "phone": "9876543210",
+//     "company": "TechCorp Inc."
+//   },
+//   "status": "New",
+//   "notes": "Interested in premium plan"
+// }
