@@ -66,15 +66,9 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <!-- Spring Boot Maven Plugin -->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+   
+          
+       
 <build>
   <plugins>
     <plugin>
@@ -82,6 +76,11 @@
       <artifactId>sonar-maven-plugin</artifactId>
       <version>4.0.0.4121</version> <!-- latest stable -->
     </plugin>
+      <!-- Spring Boot Maven Plugin -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
   </plugins>
 </build>
 
