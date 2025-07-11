@@ -22,6 +22,7 @@ public class CustomerController {
 
     @PostMapping
     public Customer add(@RequestBody Customer customer) {
+        System.out.println("Customer: " + customer.getName());
         return customerRepo.save(customer);
     }
 
